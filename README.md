@@ -105,6 +105,7 @@ Collection
 ## Git
 
 * [Beginner](Git/BeginnerGuide.md)
+* [Advanced](Git/AdvancedGuide.md)
 
 ## Linux
 
@@ -112,6 +113,21 @@ Collection
   * fzf
   * ranger
 * [Terminal / Command Line](Linux/Terminal.md)
+
+## Python
+
+* [Jupyter Notebook](https://jupyter.org/)
+
+### Python Debug
+
+* [PySnooper](https://github.com/cool-RR/PySnooper)
+
+#### Debugger
+
+[Python Debugging Tools Collection](https://wiki.python.org/moin/PythonDebuggingTools)
+
+* [pdb](https://docs.python.org/3/library/pdb.html)
+* [ipdb](https://github.com/gotcha/ipdb)
 
 ---
 
@@ -121,6 +137,36 @@ Collection
 * [Upcase](https://thoughtbot.com/upcase)
 
 ## Other Notes
+
+* [ivmm/Student-resources](https://github.com/ivmm/Student-resources)
+
+### To Be Productive
+
+* [Tricks](Productivity/Tricks.md)
+
+Tools
+
+* Note Taking
+  * Markdown
+    * VSCode + Tab Preview
+  * Mind Map
+    * XMind
+  * LaTeX
+    * VSCode + Tab Preview
+* Time Management
+  * Pomodoro Technique
+    * Pomotodo
+* Team/Project Management
+  * Kanban
+    * Trello
+    * GitHub build-in Projects
+  * Gantt Chart
+
+### Computing Resources
+
+* [Intel® AI DevCloud](https://software.intel.com/en-us/ai/devcloud)
+
+### Summary
 
 * [Programming Technology Tree](XMind/ProgrammingTechnologyTree.xmind) - My XMind Mind Map noting almost every trivial things about programming since early 2018.
 
