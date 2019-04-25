@@ -5,6 +5,7 @@
 ### Tools
 
 * [Pomotodo](https://pomotodo.com/intl/en/)
+* [connermcd/gtd](https://github.com/connermcd/gtd) - A simple shell script for effective time management.
 
 ---
 

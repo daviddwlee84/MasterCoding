@@ -16,8 +16,17 @@ Many stars
 
 * [amix/vimrc](https://github.com/amix/vimrc)
 * [wsdjeg/DotFiles](https://github.com/wsdjeg/DotFiles)
+* [nicknisi/dotfiles](https://github.com/nicknisi/dotfiles)
+* [fisadev/fisa-vim-config](https://github.com/fisadev/fisa-vim-config) - especially for python
+  * [in detail](https://fisadev.github.io/fisa-vim-config/)
+  * [Youtube - Vim: Setting up Vim for Python development](https://youtu.be/vlb3qUiS2ZY)
 * [bilibili/vim-vide](https://github.com/bilibili/vim-vide)
+* [colbycheeze/dotfiles](https://github.com/colbycheeze/dotfiles)
 
 Few stars
 
+* [connermcd/dotfiles](https://github.com/connermcd/dotfiles)
 * [jmeridth/dotfiles](https://github.com/jmeridth/dotfiles)
+* [dwt1/dotfiles](https://gitlab.com/dwt1/dotfiles)
+* [sjl/dotfiles](https://bitbucket.org/sjl/dotfiles/src)
+* [chusiang/vimrc](https://github.com/chusiang/vimrc)

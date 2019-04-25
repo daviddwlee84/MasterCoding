@@ -1,5 +1,9 @@
 # NeoVim
 
+## Installation
+
+* [Installing Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+
 ## Resources
 
 * [neovim/neovim](https://github.com/neovim/neovim)

@@ -1,15 +1,93 @@
 # VIM Advanced Guide
 
-## Window Split
+## Tabs, Windows and Buffers
+
+> **Tabs** for **window container**
+>
+> **Windows** for **buffer viewports**
+>
+> **Buffers** for **file proxies** (and the arglist)
+
+Only tab command work in VSCode Vim
+
+### Buffer - file proxy
+
+```vim
+:help buffers
+```
+
+| Actions         | Description                   |
+| --------------- | ----------------------------- |
+| `:bn`           | go to next buffer             |
+| `:b {filename}` | go to buffer {filename}       |
+| `:bd`           | delete current buffer         |
+| `:buffers`      | print out all buffers         |
+| `:bufdo {cmd}`  | execute {cmd} for all buffers |
+
+#### Arglist
+
+> Can be considered as a subset of the beffer
+
+| Actions            | Description                         |
+| ------------------ | ----------------------------------- |
+| `:n`               | go to next file (based on arg list) |
+| `:arga {filename}` | add {filename} to arg list          |
+| `:argl {files}`    | make a local arg copy via {files}   |
+| `:args`            | print out all arguments             |
+
+### Window - buffer viewport
+
+```vim
+:help windows
+```
+
+| Actions        | Description                      |
+| -------------- | -------------------------------- |
+| `<Ctrl-w> s`   | split window                     |
+| `<Ctrl-w> v`   | split window vertically          |
+| `<Ctrl-w> o`   | make the window the only one     |
+| `<Ctrl-w> q`   | close window                     |
+| `<Ctrl-w> w`   | alternate window                 |
+| `<Ctrl-w> r`   | rotate window                    |
+| `:windo {cmd}` | execute {cmd} for all windows    |
+| `:sf {file}`   | split window and `:find {file}`  |
+| `vert {cmd}`   | make any split {cmd} be vertical |
+
+#### Window Split and Open File
 
 * [Vim Splits - Move Faster and More Naturally](https://thoughtbot.com/blog/vim-splits-move-faster-and-more-naturally)
 * [Switch between Vim window splits easily](https://vim.fandom.com/wiki/Switch_between_Vim_window_splits_easily)
 
+| Actions          | Description                       |
+| ---------------- | --------------------------------- |
+| `:e {filename}`  | edit {filename} in current window |
+| `:sp {filename}` | open {filename} in split window   |
+
+### Tab - window container
+
+```vim
+:help tabs
+```
+
+| Actions | Description          |
+| ------- | -------------------- |
+| `gt`    | go to next tab       |
+| `gT`    | go to previous tab   |
+| `:tabc` | close tab            |
+| `:tabe` | open tab             |
+| `:tabo` | close all other tabs |
+
 ## Mark
+
+> * [Vim Tips Wiki - Using marks](https://vim.fandom.com/wiki/Using_marks)
 
 ## Register
 
 ## Record Macro
+
+## Folding
+
+> * [Vim Tips Wiki - Folding](https://vim.fandom.com/wiki/Folding)
 
 ## Resources
 
@@ -23,3 +101,4 @@
     * [github](https://github.com/fadein)
 * [**Improving Vim Speed**](https://youtu.be/OnUiHLYZgaA)
 * [Ben Orenstein - Write code faster: expert-level vim (Railsberry 2012)](https://youtu.be/SkdrYWhh-8s)
+* [YouTube Playlist - Vim screencasts](https://www.youtube.com/playlist?list=PLwJS-G75vM7kFO-yUkyNphxSIdbi_1NKX)

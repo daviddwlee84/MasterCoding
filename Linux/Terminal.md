@@ -22,3 +22,19 @@ popd
 ```
 
 * [How to go to the previous working directory in terminal?](https://unix.stackexchange.com/questions/81224/how-to-go-to-the-previous-working-directory-in-terminal)
+
+## Useful command
+
+### Default open
+
+* MacOS: `open`
+* Debian: `xdg-open`
+
+### Extract compressed file
+
+#### ipk
+
+```sh
+tar zxpvf filename.ipk
+ar x filename.ipk
+```
