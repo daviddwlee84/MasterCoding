@@ -1,6 +1,6 @@
-# MasterCoding
+# Master Coding
 
-Vim and his happy friend. Also VSCode stuff plus some good development tools collection!
+Vim and his happy friends. Also VSCode stuff plus some good development tools collection!
 
 ## VIM
 
@@ -14,6 +14,7 @@ Others
 * [Key Bind](VIM/KeyBind.md)
 * [Dotfile](VIM/dotfile.md)
 * [The VimScript](VIM/vimscript.md)
+* [Snippet](VIM/snippet.md)
 * [NeoVim](VIM/NeoVim.md)
 
 ### Best Friends
@@ -111,8 +112,35 @@ Collection
 
 * Productive Tools
   * fzf
+* File Manager
+  * [vifm](https://vifm.info/)
   * ranger
+  * [Midnight Commander](https://midnight-commander.org/)
 * [Terminal / Command Line](Linux/Terminal.md)
+
+## Taking Notes
+
+### Markdown
+
+Tools
+
+* VSCode + Tab Preview
+* MacDown
+* Typora
+
+### LaTeX
+
+* [LaTeX](NoteTaking/LaTeX.md)
+
+(TODO) Seperate notes like tools, Bibtex....
+
+Tools
+
+* VSCode + Tab Preview
+
+### Mind Map
+
+* XMind
 
 ## Python
 
@@ -139,6 +167,7 @@ Collection
 ## Other Notes
 
 * [ivmm/Student-resources](https://github.com/ivmm/Student-resources)
+* [Break GFW](Other/BreakGFW.md) - VPN, proxy...
 
 ### To Be Productive
 
@@ -146,13 +175,6 @@ Collection
 
 Tools
 
-* Note Taking
-  * Markdown
-    * VSCode + Tab Preview
-  * Mind Map
-    * XMind
-  * LaTeX
-    * VSCode + Tab Preview
 * Time Management
   * Pomodoro Technique
     * Pomotodo
@@ -174,11 +196,6 @@ Tools
 
 ## GUI Tools Collection
 
-### Markdown
-
-* MacDown
-* Typora
-
 ### Other
 
 * Dash (including MacOS, iOS, VSCode client)
@@ -199,6 +216,16 @@ Tools
 
 * [patat](https://github.com/jaspervdj/patat)
 * [tpp](https://github.com/cbbrowne/tpp)
+
+### Browser
+
+> * [Browsing the internet from the command line](https://askubuntu.com/questions/29540/browsing-the-internet-from-the-command-line)
+
+* ELinks
+* Lynx
+  * `sudo apt-get install lynx-cur`
+* w3m
+  * `sudo apt-get install w3m w3m-img`
 
 ## iOS Tools Collection
 
