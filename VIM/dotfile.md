@@ -6,6 +6,21 @@
   * `/etc/vim/vimrc` or `etc/vimrc`
 * Local .vimrc File
 
+## Manage
+
+* [The best way to store your dotfiles: A bare Git repository](https://www.atlassian.com/git/tutorials/dotfiles)
+
+### Manager
+
+#### YADM
+
+* [Yet Another Dotfiles Manager](https://yadm.io/)
+  * [TheLocehiliosan/yadm](https://github.com/TheLocehiliosan/yadm)
+
+#### dotbot
+
+* [anishathalye/dotbot](https://github.com/anishathalye/dotbot)
+
 ## Resources
 
 * [Introduction To Vim Customization](https://www.linode.com/docs/tools-reference/tools/introduction-to-vim-customization/)
