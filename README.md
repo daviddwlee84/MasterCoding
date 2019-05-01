@@ -82,7 +82,11 @@ Collection
 * Python
 * Path Intellisense
 * Excel Viewer
+
+Remote Development
+
 * [sftp](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp)
+* [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)  - using ssh
 
 #### Special Purpose
 
@@ -197,6 +201,16 @@ Tools
 ### Computing Resources
 
 * [Intel® AI DevCloud](https://software.intel.com/en-us/ai/devcloud)
+
+### Coding Style
+
+#### Formatter, Prettifier
+
+JavaScript
+
+* [google/code-prettify](https://github.com/google/code-prettify) - JavaScript code prettifier
+* [Prettier](https://prettier.io/)
+  * [prettier/prettier](https://github.com/prettier/prettier)
 
 ### Summary
 
