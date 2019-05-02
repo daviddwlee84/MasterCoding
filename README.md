@@ -156,6 +156,17 @@ Tools
 
 * XMind
 
+### Handwriting on iPad
+
+App (Recommend)
+
+* GoodNotes 4
+
+App (Others)
+
+* GoodNotes 5
+* Nebo
+
 ## Python
 
 * [Jupyter Notebook](https://jupyter.org/)
