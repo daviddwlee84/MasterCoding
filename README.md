@@ -47,6 +47,14 @@ Plugin
 * Tagbar - displays tags in a window, ordered by scope
 * [ack](https://github.com/mileszs/ack.vim) - a better version of grep in vim
 * [easymotion](https://github.com/easymotion/vim-easymotion) - Vim motions on speed!
+* Switch input method when switch mode
+  * [SmartIM](https://github.com/ybian/smartim/)
+    * [vim 中文輸入解決方案](https://zhuanlan.zhihu.com/p/23939198)
+  * [vim-xkbswitch](https://github.com/lyokha/vim-xkbswitch)
+    * [解決惱人的 vim 中文輸入法切換問題](https://zhuanlan.zhihu.com/p/49411224)
+  * [fcitx.vim](https://github.com/vim-scripts/fcitx.vim)
+    * [fcitx-vim-osx](https://github.com/dangxuandev/fcitx-vim-osx)
+      * [fcitx-remote-for-osx](https://github.com/dangxuandev/fcitx-remote-for-osx)
 
 Collection
 
@@ -82,6 +90,7 @@ Collection
 * Python
 * Path Intellisense
 * Excel Viewer
+* [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) - just like Mark in vim
 
 Remote Development
 
