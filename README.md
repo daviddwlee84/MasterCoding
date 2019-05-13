@@ -125,6 +125,7 @@ Remote Development
 
 * [Sourcetree](https://www.sourcetreeapp.com/)
 * [Github Desktop](https://desktop.github.com/)
+* [Fork](https://forkapp.io/)
 * [Git Tower](https://www.git-tower.com/)
 
 iOS
@@ -136,8 +137,6 @@ iOS
 * Productive Tools
   * fzf
 * File Manager
-  * [vifm](https://vifm.info/)
-  * ranger
   * [Midnight Commander](https://midnight-commander.org/)
 * [Terminal / Command Line](Linux/Terminal.md)
 
@@ -236,13 +235,36 @@ JavaScript
 
 * [Programming Technology Tree](XMind/ProgrammingTechnologyTree.xmind) - My XMind Mind Map noting almost every trivial things about programming since early 2018.
 
+#### Web Development
+
+```txt
+<             Front-end Engineer            >
+          <               Back-end Engineer             >
+                             <          Algorithm Engineer          >
+| UI / UX | Front-end Logic | Back-end Logic | Database | Algorithm |
+```
+
 ---
 
 ## GUI Tools Collection
 
+### Better Terminal
+
+* [**iTerm2**](https://www.iterm2.com/) - Mac OS X
+* [**Windows Terminal**](https://github.com/microsoft/Terminal) - It's open source and just released on Github in early May, 2019. (will delivered in Windows Store)
+* [Hyper](https://hyper.is/) - Cross Platform
+
+### API
+
+* [Postman](https://www.getpostman.com/)
+* [Insomnia](https://www.insomnia.rest/)
+
 ### Other
 
 * Dash (including MacOS, iOS, VSCode client)
+* [SwitchHost](https://oldj.github.io/SwitchHosts/) - hosts management & switching
+* [KeeWeb](https://keeweb.info/) - cross-platform password manager
+* [ngork](https://ngrok.com/)- public URLs for localhost
 
 #### Code Presentation
 
@@ -251,10 +273,21 @@ JavaScript
 
 ## CLI Tools Collection
 
+### Useless Tools
+
 * cowsay
-* [FIGlet](http://www.figlet.org/)
+* [FIGlet](http://www.figlet.org/) - display large characters made up of ordinary screen characters
   * [github](https://github.com/cmatsuoka/figlet)
   * [a good example](https://gist.github.com/LunaCodeGirl/6707775)
+* toilet - display large colourful characters
+* fortune - print a random, hopefully interesting, adage
+* lolcat - rainbow coloring effect for text console display
+
+```sh
+$ fortune | cowsay | lolcat -a
+$ echo "KTHXBAI" | toilet | lolcat
+$ date | figlet -k
+```
 
 ### Slides
 
@@ -270,6 +303,10 @@ JavaScript
   * `sudo apt-get install lynx-cur`
 * w3m
   * `sudo apt-get install w3m w3m-img`
+
+### Monitor
+
+* top / htop
 
 ## iOS Tools Collection
 
