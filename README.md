@@ -16,6 +16,7 @@ Others
 * [The VimScript](VIM/vimscript.md)
 * [Snippet](VIM/snippet.md)
 * [NeoVim](VIM/NeoVim.md)
+* [VimEverywhere](VIM/VimEverywhere.md)
 
 ### Best Friends
 

@@ -30,6 +30,12 @@ In Zsh
 bindkey -v
 ```
 
+> In Bash
+>
+> ```bashrc
+> set -o vi
+> ```
+
 * Ctrl+R search (fixed by using the oh-my-zsh plugin)
 
     > The default zsh vim mode will disable the default keybind like Ctrl+R search.
@@ -58,12 +64,6 @@ bindkey -v
     > # allow ctrl-a and ctrl-e to move to beginning/end of line
     > bindkey '^a' beginning-of-line
     > bindkey '^e' end-of-line
-    > ```
-    >
-    > In Bash
-    >
-    > ```bashrc
-    > set -o vi
     > ```
 
 * `ci"` Functionality: add the following line in `~/.zshrc`

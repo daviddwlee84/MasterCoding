@@ -162,8 +162,6 @@ e.g. Replacing all the "_" with "-". Like (`This_is_combined_with_underline`): `
 * [**Vim notetaking tips**](https://youtu.be/wh_WGWii7UE)
   * [speaker github](https://github.com/connermcd)
 * [Integrating Vim Into Your Life](https://thoughtbot.com/blog/integrating-vim-into-your-life)
-* [How vim Makes my Daily Life Easier](https://youtu.be/NzD2UdQl5Gc)
-* [Vim Makes Everything Better, Especially Your File Manager And Shell!](https://youtu.be/a4scYdubKbo)
 
 ### Book
 
