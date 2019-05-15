@@ -67,11 +67,28 @@ Move current line to
 * Middle: `zz`
 * Bottom: `zb`
 
-| Function         | Down       | Up         |
-| ---------------- | ---------- | ---------- |
-| Scroll one line  | `<Ctrl-e>` | `<Ctrl-y>` |
-| Scroll half-page | `<Ctrl-d>` | `<Ctrl-u>` |
-| Scroll full-page | `<Ctrl-f>` | `<Ctrl-b>` |
+| Function         | Down                             | Up                             |
+| ---------------- | -------------------------------- | ------------------------------ |
+| Scroll one line  | `<Ctrl-e>`                       | `<Ctrl-y>`                     |
+| Scroll half-page | `<Ctrl-d>`                       | `<Ctrl-u>`                     |
+| Scroll full-page | `<Ctrl-f>` (equivalent PAGEDOWN) | `<Ctrl-b>` (equivalent PAGEUP) |
+
+### Moving Cursor (and maybe change mode)
+
+> `:help left-right-motions`
+
+| Function                       | Front                 | End                  |
+| ------------------------------ | --------------------- | -------------------- |
+| Begin/End of line              | `0` (equivalent HOME) | `$` (equivalent END) |
+| First/Last non-blank character | `_` or `^`            | -                    |
+| Edit begin/end of line         | `I`                   | `A`                  |
+
+> `:help up-down-motions`
+
+| Function                                                    | Bottom | Top  |
+| ----------------------------------------------------------- | ------ | ---- |
+| Edit on new line                                            | `o`    | `O`  |
+| Goto next "display" line (useful when auto enter by editor) | `gj`   | `gk` |
 
 ## Finding things
 
@@ -107,7 +124,7 @@ e.g. Replacing all the "_" with "-". Like (`This_is_combined_with_underline`): `
 
 ## Replace things
 
-* `r`
+* `r`: replace character under cursor
 
 ### Search and replace
 
