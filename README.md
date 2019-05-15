@@ -67,6 +67,10 @@ Collection
 
 ## Visual Studio Code
 
+Guides
+
+* [Tips](VSCode/Tips.md)
+
 ### Extension
 
 * [Youtube - My Favorite VS Code Extensions](https://www.youtube.com/watch?v=rH1RTwaAeGc)
@@ -178,7 +182,15 @@ App (Others)
 
 ## Python
 
+### Jupyter Notebook
+
 * [Jupyter Notebook](https://jupyter.org/)
+
+#### Jupyter Extension
+
+* [Jupyter notebook extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions) - [Document](http://jupyter-contrib-nbextensions.readthedocs.io/en/latest)
+  * Installation: `pip install jupyter_contrib_nbextensions`
+  * [Select CodeMirror Keymap](https://github.com/ipython-contrib/jupyter_contrib_nbextensions/tree/master/src/jupyter_contrib_nbextensions/nbextensions/select_keymap) - Enable VIM Mode
 
 ### Python Debug
 
@@ -197,6 +209,14 @@ App (Others)
 
 * [CodeCademy](https://www.codecademy.com/)
 * [Upcase](https://thoughtbot.com/upcase)
+
+Python
+
+* [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) - Chinese Python resource
+
+Game
+
+* [lettier/3d-game-shaders-for-beginners](https://github.com/lettier/3d-game-shaders-for-beginners)
 
 ## Other Notes
 

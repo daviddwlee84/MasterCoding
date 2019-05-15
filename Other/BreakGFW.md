@@ -111,3 +111,11 @@ General options:
 
 Online help: <https://github.com/shadowsocks/shadowsocks>
 ```
+
+## Resources
+
+### Tutorial
+
+* [**YouTube - 哪種翻牆軟件更隱蔽？！聯通後台數據實測SS/SSR/V2Ray/Brook 翻牆APP！請耐心看完本教程，能讓你避免被請喝茶！**](https://www.youtube.com/watch?v=G-P8eyltc5E) - Protocols explaination
+  * [Tutorial blog](https://telegra.ph/Happy-New-World-08-11)
+* [YouTube - Shadowsocks零基礎上手/把手教你設置SSR.SS客戶端/附送大量免費SS節點（翻牆/科學上網/SS.SSR翻牆/SS.SSR免費節點）](https://youtu.be/Y_ToiGM266Y)
