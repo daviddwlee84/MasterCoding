@@ -15,6 +15,7 @@
 ### Search between Function/Symbol/Tags
 
 * `Command + t` => `#[symbol]`
+* `Command + Shift + o` => `@[symbol]`
 
 ### Others
 
@@ -46,6 +47,7 @@ You can press `Shift + Alt` and then use mouse to select a block area.
 ### Open Terminal
 
 * Open terminal directly (if none will create one): Ctrl + `
+  * create new one: Ctrl + Shift + `
 * Open bottom window: `Command + j`
 * `Command + p` then type `term [listed terminal name / create]`
 
@@ -78,6 +80,7 @@ You can press `Shift + Alt` and then use mouse to select a block area.
 * `Ctrl + Tab` go to next tab. / `Ctrl + Shift + Tab` to to previous tab. (this will conflict with system shortcut in MacOS)
 * `Ctrl + [number]` go to the nth tab
 
-### Close window/tab
+### Close window/tab/side bar
 
 * `Command + w` close current tab
+* `Command + b` close/open side bar (will confilict in Bold if you use Markdown extension)
