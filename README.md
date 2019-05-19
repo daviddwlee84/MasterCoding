@@ -182,7 +182,7 @@ App (Others)
 
 ## Python
 
-### Jupyter Notebook
+### [Jupyter Notebook](Other/JupyterNotebook.md)
 
 * [Jupyter Notebook](https://jupyter.org/)
 
@@ -347,6 +347,7 @@ $ date | figlet -k
   * Cross-platform
     * Sublime
     * Atom
+      * [atom-beautify](https://atom.io/packages/atom-beautify)
   * Windows
     * Notepad++
   * OS X
@@ -377,3 +378,9 @@ $ date | figlet -k
     * PuTTY
   * GUI
     * VNC
+* Design
+  * 3D Model (for 3D print)
+    * Fusion 360
+    * Blender
+  * PCB
+    * [EasyEDA](https://easyeda.com/)
