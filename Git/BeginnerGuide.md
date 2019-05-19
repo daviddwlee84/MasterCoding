@@ -34,6 +34,11 @@ git status
 
 ## Resources
 
+### Book
+
+* Pro Git
+* [為你自己學 Git](https://gitbook.tw/)
+
 ### Tutorial
 
 * [**Resources to learn Git**](https://try.github.io/)
