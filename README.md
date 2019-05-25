@@ -384,3 +384,6 @@ $ date | figlet -k
     * Blender
   * PCB
     * [EasyEDA](https://easyeda.com/)
+* Make video => GIF
+  1. [Gifox](https://gifox.io/) or (⌘⇧5 on Mac)
+  2. [ImageOptim](https://imageoptim.com) - reduce the image size (replace the old one)

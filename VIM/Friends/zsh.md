@@ -5,6 +5,9 @@
 * [Oh My ZSH!](https://ohmyz.sh/)
   * [github](https://github.com/robbyrussell/oh-my-zsh)
 
+> * [Oh My BASH!](https://ohmybash.github.io/)
+>   * [github](https://github.com/ohmybash/oh-my-bash)
+
 ## Plugin
 
 * git

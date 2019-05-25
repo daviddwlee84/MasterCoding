@@ -4,6 +4,18 @@
 
 * [Installing Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
+## Special Funtionality
+
+### Preview execution result - inccommand
+
+```vimrc
+set inccommand=nosplit "show the reault in original line
+```
+
+```vimrc
+set inccommand=split "show the result in preview window
+```
+
 ## Resources
 
 * [neovim/neovim](https://github.com/neovim/neovim)
