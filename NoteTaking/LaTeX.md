@@ -22,7 +22,7 @@ pdflatex mydocument.tex
 # This will generate "mydocument.pdf", a PDF document
 ```
 
-#### BibTeX
+#### with BibTeX
 
 ```sh
 # need paper.tex (xxx.sty optional)
@@ -60,12 +60,25 @@ pdflatex paper # get paper.pdf
 latex makebst
 ```
 
-Example of using `acl_natbib.bst` with custom bib BibTex file called mybib
+Example of using `acl_natbib.bst` with custom bib BibTex file called `mybib`
 
 ```tex
 \bibliographystyle{acl_natbib}
 \bibliography{mybib}
 ```
+
+Build in BibTeX styple
+
+* abbrv
+* acm
+* alpha
+* apalike
+* ieeetr
+* plain
+* siam
+* unsrt
+
+> * [Overleaf - Bibtex bibliography styles](https://www.overleaf.com/learn/latex/Bibtex_bibliography_styles)
 
 ### Style
 
@@ -320,6 +333,10 @@ The typeset of tables should be based on the following rules:
 
 [multicol manual](http://ftp.yzu.edu.tw/CTAN/macros/latex/required/tools/multicol.pdf)
 
+* [Listing and Tabular in Multicols enviornment](https://tex.stackexchange.com/questions/20731/listing-and-tabular-in-multicols-enviornment)
+
+The multicol package doesn't support normal floats, like table and figure, only page-wide floats, which are starred forms: table* and figure*.
+
 ### geometry
 
 ### titling
@@ -451,6 +468,8 @@ Example: (Pretty good but current with citation problem)
 | `\unitlength`  | units of length in the picture environment.         |
 
 ### Setting the VSCode LaTeX Workshop
+
+[LaTeX Workshop extension](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
 
 #### Add another compile method
 

@@ -155,6 +155,11 @@ Tools
 * MacDown
 * Typora
 
+Transfer to pdf
+
+* [pandoc](https://pandoc.org)
+  * [manual](https://pandoc.org/MANUAL.html)
+
 ### LaTeX
 
 * [LaTeX](NoteTaking/LaTeX.md)
@@ -376,6 +381,7 @@ $ date | figlet -k
 * Remote Control
   * CLI
     * PuTTY
+    * [MobaXterm](https://mobaxterm.mobatek.net/) - Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools
   * GUI
     * VNC
 * Design
