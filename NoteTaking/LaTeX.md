@@ -8,6 +8,16 @@
 
 The part of your .tex file before the `\begin{document}` is called the preamble. In the preamble, you define the type of document you are writing and the language, load extra packages you will need, and set several parameters.
 
+#### Title
+
+Prettier title: [titling](#titling)
+
+Remove date from the title
+
+```tex
+\date{\vspace{-5ex}}
+```
+
 ### Compile
 
 ![LATEX compilation file flow](https://cdn.sharelatex.com/learn-scripts/images/e/ea/Latex-file-flow.png)
@@ -347,7 +357,7 @@ The multicol package doesn't support normal floats, like table and figure, only 
 % This will center the title
 \usepackage{titling}
 \renewcommand\maketitlehooka{\null\mbox{}\vfill}
-\renewcommand\maketitlehookd{\vfill\null
+\renewcommand\maketitlehookd{\vfill\null}
 ```
 
 > You can also write your own page like this
@@ -445,6 +455,40 @@ Example: (Pretty good but current with citation problem)
 
 \lstinputlisting[language=c]{filename.c}
 ```
+
+### Links
+
+#### hyperref
+
+* [Overleaf - Hyperlinks](https://www.overleaf.com/learn/latex/Hyperlinks)
+
+```tex
+\usepackage{hyperref}
+```
+
+Style setup
+
+```tex
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta
+    urlcolor=cyan,
+    pdftitle={Chinese Word Segmentation and POS Tagging},
+    bookmarks=true,
+    pdfpagemode=FullScreen,
+}
+```
+
+Automatically add footnote
+
+```tex
+\newcommand\fnurl[2]{
+  \href{#2}{#1}\footnote{\url{#2}}
+}
+```
+
+#### url
 
 ## Appendix
 
