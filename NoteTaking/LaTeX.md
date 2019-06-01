@@ -324,12 +324,6 @@ The typeset of tables should be based on the following rules:
 
 ## Package
 
-### booktabs
-
-> For prettier tables
-
-* replace `\hline` with `\toprule`, `\midrule` and `\bottomrule`
-
 ### enumitem
 
 [enumitem](https://ctan.org/pkg/enumitem)
@@ -376,6 +370,32 @@ The multicol package doesn't support normal floats, like table and figure, only 
 \usepackage{graphicx}
 \graphicspath{ {./images/} }
 ```
+
+### resizebox
+
+```tex
+\resizebox{\textwidth}{!}{
+    % something like table or figure
+}
+```
+
+### Table
+
+* [**How to force a table into page width?**](https://tex.stackexchange.com/questions/10535/how-to-force-a-table-into-page-width)
+
+#### booktabs
+
+> For prettier tables
+
+* replace `\hline` with `\toprule`, `\midrule` and `\bottomrule`
+
+#### multirow
+
+#### tabularx
+
+Use `X` column type to replace original `l`, `c`, `r`, which fills out the rest of the space. (It can be used for several columns, which then share the rest of the width equally.)
+
+#### tabu
 
 ### Drawing Related
 
@@ -735,7 +755,7 @@ TikZ
 
 #### Table Generator
 
-* [LaTeX Table Generator](https://www.tablesgenerator.com/latex_tables)
+* [**LaTeX Table Generator**](https://www.tablesgenerator.com/latex_tables)
 
 #### Drawing Graph
 
