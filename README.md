@@ -101,11 +101,14 @@ Remote Development
 
 * [sftp](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp)
 * [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)  - using ssh
+* [vscode-remote](https://aka.ms/vscode-remote)
+  * [microsoft/vscode-dev-containers](https://github.com/microsoft/vscode-dev-containers)
 
 #### Special Purpose
 
 * VS Code Jupyter Notebook Previewer
-* Docker
+* [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+  * [github](https://github.com/microsoft/vscode-docker)
 * Doxygen Documentation Generator
 * ESLint
 * Formatting Toggle
@@ -160,15 +163,30 @@ Transfer to pdf
 * [pandoc](https://pandoc.org)
   * [manual](https://pandoc.org/MANUAL.html)
 
+Tips
+
+* [Art of README](https://github.com/noffle/art-of-readme)
+
 ### LaTeX
 
 * [LaTeX](NoteTaking/LaTeX.md)
 
 (TODO) Seperate notes like tools, Bibtex....
 
+TeX Distribution
+
+* Ubuntu: `sudo apt-get install texlive-full`
+* Mac: [MacTeX](http://tug.org/mactex/)
+* Windows: [TeX Live](http://tug.org/texlive/) ([instruction](https://liam.page/texlive))
+
 Tools
 
 * VSCode + Tab Preview
+
+Alternative
+
+* Word + [WordTex](https://www.andrew.cmu.edu/user/twildenh/wordtex/)
+  * [YouTube - WordTeX - A WYSIPCTWOTCG Typesetting Tool](https://www.youtube.com/watch?v=jlX_pThh7z8)
 
 ### Mind Map
 
@@ -190,6 +208,9 @@ App (Others)
 ### [Jupyter Notebook](Other/JupyterNotebook.md)
 
 * [Jupyter Notebook](https://jupyter.org/)
+
+> * Kaggle Kernel
+> * Google Colab
 
 #### Jupyter Extension
 
@@ -279,6 +300,7 @@ JavaScript
 * [**iTerm2**](https://www.iterm2.com/) - Mac OS X
 * [**Windows Terminal**](https://github.com/microsoft/Terminal) - It's open source and just released on Github in early May, 2019. (will delivered in Windows Store)
 * [Hyper](https://hyper.is/) - Cross Platform
+* [Fluent Terminal](https://github.com/felixse/FluentTerminal) - Terminal for PowerShell, CMD, WSL or custom shells
 
 ### API
 
@@ -393,3 +415,7 @@ $ date | figlet -k
 * Make video => GIF
   1. [Gifox](https://gifox.io/) or (⌘⇧5 on Mac)
   2. [ImageOptim](https://imageoptim.com) - reduce the image size (replace the old one)
+* Video Editor
+  * [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
+  * [Adobe Premiere Elements](https://www.adobe.com/tw/products/premiere-elements.html)
+  * [Quik](https://shop.gopro.com/International/softwareandapp/quik-%7C-desktop/Quik-Desktop.html)

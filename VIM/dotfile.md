@@ -45,3 +45,4 @@ Few stars
 * [dwt1/dotfiles](https://gitlab.com/dwt1/dotfiles)
 * [sjl/dotfiles](https://bitbucket.org/sjl/dotfiles/src)
 * [chusiang/vimrc](https://github.com/chusiang/vimrc)
+* [wangshub/dotfile](https://github.com/wangshub/dotfile)
