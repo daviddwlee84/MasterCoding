@@ -399,7 +399,16 @@ $ date | figlet -k
     * Eclipse
     * [NetBeans](https://netbeans.org/)
 * Emulator
-  * Cygwin
+  * Linux
+    * Cygwin
+  * Android
+    * [Bluestacks 4](https://www.bluestacks.com/tw/index.html)
+      * [China version](https://www.bluestacks.cn/) (Windows only)
+    * [NoxPlayer](https://tw.bignox.com/)
+    * [Droid 4x](https://droid4x.cc/) (Windows only)
+      * [official](https://droid4xofficial.com/)
+  * Windows
+    * wine - [wine notes](Other/wine.md)
 * Remote Control
   * CLI
     * PuTTY
