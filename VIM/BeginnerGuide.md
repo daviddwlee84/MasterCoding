@@ -136,6 +136,7 @@ e.g. Replacing all the "_" with "-". Like (`This_is_combined_with_underline`): `
 * `<Ctrl+r>`: Redo changes which were undone
 * `.`: Re-do last command
   * e.g. If I delete a word using `dw`. I can delete again using just `.`.
+  * e.g. Replacing all the first character with capital letter: `w~w.w.w.w.`
 
 ## MacOS Related
 
@@ -190,6 +191,13 @@ e.g. Replacing all the "_" with "-". Like (`This_is_combined_with_underline`): `
 * [Graphical vi-vim Cheat Sheet and Tutorial](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
 * [Vim Cheat Sheet](https://vim.rtorr.com/)
 * [hackjutsu/vim-cheatsheet](https://github.com/hackjutsu/vim-cheatsheet)
+
+## Appendix
+
+### Equivalent key combination that I found
+
+* Delete to the end of the line: `d$` = `D`
+* `Insert` (Replace) mode: `<insert>` = `R`
 
 ---
 
