@@ -308,6 +308,41 @@ The typeset of tables should be based on the following rules:
 
 > [fontspec package](#fontspec)
 
+## Math Formula
+
+```tex
+$$
+formula
+$$
+```
+
+```tex
+\begin{equation}
+  formula
+\end{equation}
+```
+
+### Multiline equations, systems
+
+* [LaTeX – Multiline equations, systems and matrices](https://kogler.wordpress.com/2008/03/21/latex-multiline-equations-systems-and-matrices/)
+
+```tex
+\begin{align}
+  formula1 \\
+  formula2
+\begin{align}
+```
+
+> without equation numbering use `align*` instead
+
+```tex
+f(n) =
+\begin{cases}
+  formula1 & condition1 \\
+  formula2 & condition2
+\end{cases}
+```
+
 ## Algorithm/Pseudocode
 
 > * [**algorithmicx** package](#algorithmicx)
@@ -321,6 +356,15 @@ The typeset of tables should be based on the following rules:
 ### Code block
 
 > * [**Listings** package](#Listings)
+
+## Self-define command, variable in LaTeX
+
+e.g. commonly used formula, elements, combination of multiple function
+
+```tex
+\newcommand{\command}{definitions} % no paramter
+\newcommand{\command}[parameters]{definitions} % with parameters (#1, #2, ...)
+```
 
 ## Package
 
@@ -378,6 +422,14 @@ The multicol package doesn't support normal floats, like table and figure, only 
     % something like table or figure
 }
 ```
+
+### Math
+
+#### amsmath
+
+additional symbol, commands
+
+* `\amsmath`
 
 ### Table
 
@@ -476,7 +528,7 @@ Example: (Pretty good but current with citation problem)
 \lstinputlisting[language=c]{filename.c}
 ```
 
-### Links
+### Hyperlinks
 
 #### hyperref
 

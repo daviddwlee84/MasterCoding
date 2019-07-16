@@ -409,6 +409,13 @@ $ date | figlet -k
       * [official](https://droid4xofficial.com/)
   * Windows
     * wine - [wine notes](Other/wine.md)
+  * DOS
+    * DOSBox
+      * `brew cask install dosbox`
+* Browser
+  * Google Chrome
+    * User Script - [Install User Script](https://greasyfork.org/en/help/installing-user-scripts)
+      * [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 * Remote Control
   * CLI
     * PuTTY
@@ -428,3 +435,14 @@ $ date | figlet -k
   * [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
   * [Adobe Premiere Elements](https://www.adobe.com/tw/products/premiere-elements.html)
   * [Quik](https://shop.gopro.com/International/softwareandapp/quik-%7C-desktop/Quik-Desktop.html)
+* Downloader
+  * YouTube
+    * [FindYoutube.net](https://www.findyoutube.net/)
+      * [manual](https://help.findyoutube.net/help)
+      * [browser script](https://greasyfork.org/en/scripts/8426-download-youtube-videos-and-subtitles)
+
+### Script
+
+* Baidu Drive
+  * [houtianze/bypy](https://github.com/houtianze/bypy) - Python client for Baidu Yun
+  * [peterq/pan-light](https://github.com/peterq/pan-light)
