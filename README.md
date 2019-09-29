@@ -205,6 +205,8 @@ App (Others)
 
 ## Python
 
+* [Understanding the Python Traceback](https://realpython.com/python-traceback/)
+
 ### [Jupyter Notebook](Other/JupyterNotebook.md)
 
 * [Jupyter Notebook](https://jupyter.org/)
@@ -227,7 +229,49 @@ App (Others)
 [Python Debugging Tools Collection](https://wiki.python.org/moin/PythonDebuggingTools)
 
 * [pdb](https://docs.python.org/3/library/pdb.html)
-* [ipdb](https://github.com/gotcha/ipdb)
+* [**ipdb**](https://github.com/gotcha/ipdb)
+  * `import ipdb; ipdb.set_trace() # BREAKPOINT`
+  * [Debugging with ipython and ipdb](https://gist.github.com/mono0926/6326015)
+    * [slides](https://docs.google.com/presentation/d/1c6BaV6T57z8UjkEd32xQErMtLT0fC-mZOCRaCcP7dcs/edit#slide=id.p)
+  * [使用IPDB調試Python代碼](https://xmfbit.github.io/2017/08/21/debugging-with-ipdb/)
+* [traceback](https://docs.python.org/3/library/traceback.html)
+  * `traceback.print_exc()`
+
+### Python Tricks
+
+Virtual Environment
+
+* `virtualenv`
+  * [Python — Virtualenv虛擬環境安裝](https://medium.com/python4u/python-virtualenv%E8%99%9B%E6%93%AC%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D-9d6be2d45db9)
+* use conda
+
+Professional CLI Application
+
+* [`argparse`](https://docs.python.org/3.7/library/argparse.html)
+* `fire`
+* `click`
+* `fabric`, `invoke`
+
+Logging
+
+* `logging`
+
+Preserve Object
+
+* `pickle`
+* `json`, `yaml`
+
+Hide process name from `top` or `ps -aux | grep python`
+
+* `setproctitle`
+
+  ```py
+  from setproctitle import setproctitle, getproctitle
+  procname = 'Hello World!'
+  setproctitle(procname)
+  print(getproctitle())
+  # Your Code
+  ```
 
 ---
 
@@ -238,6 +282,7 @@ App (Others)
 
 Python
 
+* [Kaggle Learn Python](https://www.kaggle.com/learn/python)
 * [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) - Chinese Python resource
 
 Game
@@ -262,6 +307,7 @@ Tools
   * Kanban
     * Trello
     * GitHub build-in Projects
+    * Jira
   * Gantt Chart
 
 ### Computing Resources
@@ -269,6 +315,8 @@ Tools
 * [Intel® AI DevCloud](https://software.intel.com/en-us/ai/devcloud)
 
 ### Coding Style
+
+[You (Probably) Don’t Need For-Loops - Python Pandemonium - Medium](https://medium.com/python-pandemonium/never-write-for-loops-again-91a5a4c84baf)
 
 #### Formatter, Prettifier
 
@@ -420,14 +468,28 @@ $ date | figlet -k
   * CLI
     * PuTTY
     * [MobaXterm](https://mobaxterm.mobatek.net/) - Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools
+    * [ttyd](https://github.com/tsl0922/ttyd) - Share your terminal over the web
   * GUI
     * VNC
+* Typing Check
+  * [Grammarly](https://www.grammarly.com/)
+  * [LanguageTool](https://languagetool.org/)
+* Downloader
+  * [`aria2c`](https://aria2.github.io/)
+    * [github](https://github.com/aria2/aria2)
+    * [aria2 設定教學 – 強大又輕巧的下載工具，支援 BT、斷點續傳](https://ibe.tw/aria2/)
+  * [NeteaseCloudMusicFlac](https://github.com/YongHaoWu/NeteaseCloudMusicFlac) - Download the FLAC music from NeteaseCloudMusic playlist
+* Tester
+  * [speedtest-cli](https://github.com/sivel/speedtest-cli) - Command line interface for testing internet bandwidth using speedtest.net
 * Design
   * 3D Model (for 3D print)
     * Fusion 360
     * Blender
   * PCB
     * [EasyEDA](https://easyeda.com/)
+  * Diagram
+    * [draw.io](https://www.draw.io/)
+    * [ProcessOn](https://www.processon.com/) - Diagrams, Flowchart, Mindmap
 * Make video => GIF
   1. [Gifox](https://gifox.io/) or (⌘⇧5 on Mac)
   2. [ImageOptim](https://imageoptim.com) - reduce the image size (replace the old one)

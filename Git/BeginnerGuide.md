@@ -34,6 +34,10 @@ git status
 
 ## Resources
 
+* [Github Tricks — A Short Tutorial - Make School - Medium](https://medium.com/make-school/github-tricks-a-short-tutorial-2b4e0a1e7ebc)
+* [How to Keep a GitHub Fork In Sync - Jason Arnold - Medium](https://medium.com/@thejasonfile/how-to-keep-a-github-fork-in-sync-4a2968364e07)
+* [Common git commands in a day-to-day workflow](https://gist.github.com/jedmao/5053440)
+
 ### Book
 
 * Pro Git

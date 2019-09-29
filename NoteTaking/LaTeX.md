@@ -259,6 +259,12 @@ The typeset of tables should be based on the following rules:
 
 * [How to produce a double column document in Latex?](https://tex.stackexchange.com/questions/285443/how-to-produce-a-double-column-document-in-latex)
 
+#### tables and figures in multiple column
+
+* [Listing and Tabular in Multicols enviornment](https://tex.stackexchange.com/questions/20731/listing-and-tabular-in-multicols-enviornment)
+* [Automatic line-break in tabular](https://tex.stackexchange.com/questions/166743/automatic-line-break-in-tabular)
+* [Figures and Tables in multicol](http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/multicol_hint.html)
+
 ### Footnotes
 
 ```tex
@@ -769,6 +775,7 @@ VS Code Extension
 Online Collaboration
 
 * [HackMD](https://hackmd.io/)
+* [語雀](https://www.yuque.com/)
 
 VS Code Extension
 

@@ -7,9 +7,15 @@
 Installation
 
 ```sh
-python3 -m pip install --upgrade pip
-python3 -m pip install jupyter
+pip3 install jupyterlab
 ```
+
+> Classic Notebook
+>
+> ```sh
+> python3 -m pip install --upgrade pip
+> python3 -m pip install jupyter
+> ```
 
 Usage
 
@@ -52,6 +58,14 @@ Optional
 ## Resources
 
 * [How to get autocomplete in jupyter notebook without using tab?](https://stackoverflow.com/questions/45390326/how-to-get-autocomplete-in-jupyter-notebook-without-using-tab/)
+* [Can I run Jupyter notebook cells in commandline?](https://stackoverflow.com/questions/35471894/can-i-run-jupyter-notebook-cells-in-commandline)
+  * runipy
+    * `pip3 install runipy`
+    * `runipy MyNotebook.ipynb`
+    * `runipy MyNotebook.ipynb OutputNotebook.ipynb`
+    * `runipy MyNotebook.ipynb --html report.html`
+  * jupyter nbconvert
+    * `jupyter nbconvert --to notebook --inplace --execute mynotebook.ipynb`
 
 ### Similar Online Editor
 
