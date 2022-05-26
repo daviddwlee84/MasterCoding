@@ -41,7 +41,7 @@ git status
 ### Book
 
 * Pro Git
-* [為你自己學 Git](https://gitbook.tw/)
+* [**為你自己學 Git**](https://gitbook.tw/)
 
 ### Tutorial
 

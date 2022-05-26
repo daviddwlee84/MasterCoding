@@ -173,6 +173,7 @@ Available styles for numbered lists:
 
 * [Vertical space in lists](https://tex.stackexchange.com/questions/10684/vertical-space-in-lists)
 * [Latex Remove Spaces Between Items in List](https://stackoverflow.com/questions/3275622/latex-remove-spaces-between-items-in-list)
+* [How to remove the whitespace BEFORE itemize/enumerate?](https://tex.stackexchange.com/questions/86054/how-to-remove-the-whitespace-before-itemize-enumerate)
 * [How to adjust list spacing](https://texfaq.org/FAQ-complist)
 
 ## Figures and Tables
@@ -349,6 +350,17 @@ f(n) =
 \end{cases}
 ```
 
+### Braces
+
+* [horizontal curly braces](https://tex.stackexchange.com/questions/46268/horizontal-curly-braces)
+
+$$
+z = \overbrace{
+  \underbrace{x}_\text{real} +
+  \underbrace{iy}_\text{imaginary}
+  }^\text{complex number}
+$$
+
 ## Algorithm/Pseudocode
 
 > * [**algorithmicx** package](#algorithmicx)
@@ -371,6 +383,16 @@ e.g. commonly used formula, elements, combination of multiple function
 \newcommand{\command}{definitions} % no paramter
 \newcommand{\command}[parameters]{definitions} % with parameters (#1, #2, ...)
 ```
+
+## Type Setting
+
+
+
+## Advanced
+
+### Counter
+
+* [LaTeX/Counters - Wikibooks, open books for an open world](https://en.wikibooks.org/wiki/LaTeX/Counters)
 
 ## Package
 
@@ -421,21 +443,56 @@ The multicol package doesn't support normal floats, like table and figure, only 
 \graphicspath{ {./images/} }
 ```
 
-### resizebox
+#### resizebox
+
+> resize the table or figure
 
 ```tex
+\usepackage{graphics}
 \resizebox{\textwidth}{!}{
     % something like table or figure
 }
 ```
 
+* [Is there a way to slightly shrink a table, including font size, to fit within the column boundaries?](https://tex.stackexchange.com/questions/10863/is-there-a-way-to-slightly-shrink-a-table-including-font-size-to-fit-within-th)
+
+```tex
+\usepackage{graphics}
+\resizebox{\columnwidth}{!}{
+    % something like table or figure
+}
+```
+
+* `\textwidth`
+* `\columnwidth`: better use in multi-column environment
+* `\linewidth`
+
 ### Math
 
 #### amsmath
 
-additional symbol, commands
+> additional symbol, commands
 
-* `\amsmath`
+multiple line equation
+
+[Why \\ does not go to new line in equation?](https://tex.stackexchange.com/questions/194236/why-does-not-go-to-new-line-in-equation)
+
+```tex
+\begin{align*}\label{eq:eq_name}
+eq1 &= eq1 \\
+&\quad eq2
+\end{align*}
+```
+
+`argmax` & `argmin`
+
+* [math mode - Command for argmin or argmax?](https://tex.stackexchange.com/questions/5223/command-for-argmin-or-argmax)
+
+```tex
+\usepackage{amsmath}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+```
 
 ### Table
 
@@ -475,6 +532,14 @@ Example: (Pretty good but current with citation problem)
 \setsansfont[Ligatures=TeX]{Arial}
 ```
 
+#### fontenc
+
+> * [Why do the less than symbol (<) and the greater than symbol (>) appear wrong as upside down exclamation (¡) or question mark (¿)?](https://tex.stackexchange.com/questions/2369/why-do-the-less-than-symbol-and-the-greater-than-symbol-appear-wrong-as)
+
+```tex
+\usepackage[T1]{fontenc}
+```
+
 #### mathptmx
 
 > For Times New Roman
@@ -496,6 +561,12 @@ Example: (Pretty good but current with citation problem)
 > Compile with `xelatex`
 
 #### CTeX
+
+> * [CTeX-org/ctex-kit: Macro Packages and Scripts for Chinese TeX users](https://github.com/CTeX-org/ctex-kit)
+>   * [ctex-kit/ctex.dtx at master · CTeX-org/ctex-kit](https://github.com/CTeX-org/ctex-kit/blob/master/ctex/ctex.dtx)
+> * Document
+>   * [CTEX 宏集手冊](http://tug.ctan.org/tex-archive/language/chinese/ctex/ctex.pdf)
+>   * [CTeX 介紹 slides](http://math.ecnu.edu.cn/~jypan/Teaching/Latex/lect/lect05CTeX.pdf)
 
 ```tex
 % Use it as a documentclass
@@ -567,6 +638,12 @@ Automatically add footnote
 ```
 
 #### url
+
+### Title Setting (section, chapter, table of content, ...)
+
+#### titlesec
+
+#### titletoc
 
 ## Appendix
 
@@ -777,6 +854,8 @@ Online Collaboration
 * [HackMD](https://hackmd.io/)
 * [語雀](https://www.yuque.com/)
 
+> [UPMATH](https://upmath.me/)
+
 VS Code Extension
 
 * Markdown All in One
@@ -789,6 +868,7 @@ VS Code Extension
   * [**quick start**](https://www.latex-tutorial.com/quick-start/)
   * [LaTeX tables - Tutorial with code examples](https://www.latex-tutorial.com/tutorials/tables/)
     * [Tables from .csv in LaTeX with pgfplotstable](https://www.latex-tutorial.com/tutorials/pgfplotstable/)
+* [latex - Getting started with latex | latex Tutorial](https://riptutorial.com/latex/topic/2269/getting-started-with-latex)
 
 #### Video
 
@@ -835,6 +915,7 @@ ElegantLaTeX
 
 * [ElegantLaTeX Templates](https://elegantlatex.org/en/)
 * [Github - ElegantLaTeX/ElegantNote](https://github.com/ElegantLaTeX/ElegantNote)
+* [ElegantLaTeX/ElegantPaper: ElegantPaper: An Elegant LaTeX Template for Working Papers](https://github.com/ElegantLaTeX/ElegantPaper)
 
 ### Q&A
 
@@ -849,3 +930,10 @@ ElegantLaTeX
 * [MIT - Figures and Tables in a LATEX Document](http://web.mit.edu/rsi/www/pdfs/fig-intro.pdf)
 * [**Everything you always wanted to know about BiBTEX**](https://ntg.nl/bijeen/pdf-s.20031113/BibTeX-tutorial.pdf)
 * [Graphics in LaTeX using TikZ](https://www.tug.org/TUGboat/tb29-1/tb91walczak.pdf)
+
+
+---
+
+
+
+[spacing - How to add an empty line between paragraphs? - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/135134/how-to-add-an-empty-line-between-paragraphs)

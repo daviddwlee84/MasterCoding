@@ -85,9 +85,31 @@ Only tab command work in VSCode Vim
 
 ## Record Macro
 
+`qq` do some shit `esc`
+
+TODO
+
 ## Folding
 
 > * [Vim Tips Wiki - Folding](https://vim.fandom.com/wiki/Folding)
+
+## Other Notes
+
+### Back to Directory
+
+If I open vim in a folder like `vim .`
+
+And I go into a file
+
+I want to get back to the directory mode
+[Go to back directory browsing after opening file in vim - Stack Overflow](https://stackoverflow.com/questions/9160499/go-to-back-directory-browsing-after-opening-file-in-vim)
+`:b#`
+
+repeat last colon command
+[Repeat last colon command | Vim Tips Wiki | FANDOM powered by Wikia](https://vim.fandom.com/wiki/Repeat_last_colon_command)
+`@:`
+
+`-`: upper dir
 
 ## Resources
 

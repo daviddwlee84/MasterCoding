@@ -21,6 +21,10 @@
 
 * [anishathalye/dotbot](https://github.com/anishathalye/dotbot)
 
+#### homeshick
+
+* [andsens/homeshick: git dotfiles synchronizer written in bash](https://github.com/andsens/homeshick)
+
 ## Resources
 
 * [Introduction To Vim Customization](https://www.linode.com/docs/tools-reference/tools/introduction-to-vim-customization/)
@@ -46,3 +50,4 @@ Few stars
 * [sjl/dotfiles](https://bitbucket.org/sjl/dotfiles/src)
 * [chusiang/vimrc](https://github.com/chusiang/vimrc)
 * [wangshub/dotfile](https://github.com/wangshub/dotfile)
+* [pastleo/dotSetting](https://github.com/pastleo/dotSetting)
