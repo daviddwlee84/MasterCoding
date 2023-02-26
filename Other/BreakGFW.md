@@ -23,7 +23,10 @@ Proxy
   * Server
     * [v2ray-core](https://github.com/v2ray/v2ray-core)
   * Client
-    * BifrostV - Android
+    * Android
+      * BifrostV
+      * [Releases · 2dust/v2rayNG](https://github.com/2dust/v2rayNG/releases)
+    * [V2rayU](https://github.com/yanue/V2rayU) - macOS
 
 VPN
 
@@ -40,7 +43,18 @@ Others
 
 ## Shadowsocks
 
+* [free resources](https://flywind.ml/free-ss)
+* https://github.com/the0demiurge/ShadowSocksShare
+
+Heroku
+
 * [mrluanma/shadowsocks-heroku](https://github.com/mrluanma/shadowsocks-heroku)
+* [shadowsocks/shadowsocks-manager: A shadowsocks manager tool for multi user and traffic control.](https://github.com/shadowsocks/shadowsocks-manager)
+* Auto Deploy
+  * [teddysun/shadowsocks_install at master](https://github.com/teddysun/shadowsocks_install/tree/master)
+* Deploy by one button
+  * [onplus/shadowsocks-heroku: 一键部署 Free Shadowsocks-Heroku](https://github.com/onplus/shadowsocks-heroku)
+  * [shadowsocks-websocket-python/README.md at deploy · onplus/shadowsocks-websocket-python](https://github.com/onplus/shadowsocks-websocket-python/blob/deploy/README.md)
 
 ### Shadowsocks on Debian System
 
@@ -112,7 +126,52 @@ General options:
 Online help: <https://github.com/shadowsocks/shadowsocks>
 ```
 
+### Deploy on Heroku
+
+> This is not compatible with the normal SS client
+
+* Use other's Heroku Template: [Click here](https://heroku.com/deploy?template=https://github.com/onplus/shadowsocks-heroku/tree/re)
+
+> you will get `app-name.herokuapp.com` as link to your server
+
+Requirement
+
+* Client: [release](https://github.com/onplus/shadowsocks-heroku/releases) ([backup](https://github.com/onplus/archive/tree/master/tool))
+  * Mac
+    1. Modify the default configure in `config.json` (server, password, method)
+    2. Execute the client: `./ss-h`
+* Chrome Extension: [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) - [release](https://github.com/FelisCatus/SwitchyOmega/releases), [Chrome Web Store](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
+  1. Add a new profile
+  2. Set proxy servers
+     * Protocol: SOCKS5
+     * Server: 127.0.0.1
+     * Port: 1080
+
 ## Resources
+
+https://github.com/cnlh/nps
+
+https://bbs.pku.edu.cn/v2/post-read.php?bid=35&threadid=16264150
+
+[SS/SSR - 这本书能让你连接互联网 Ⅱ](https://hoodiearon.github.io/fq-book/#/proxy/ss-ssr)
+
+v2ray
+[2dust/v2rayN](https://github.com/2dust/v2rayN)
+[2dust/v2rayNG](https://github.com/2dust/v2rayNG)
+[yanue/V2rayU: V2rayU,基于v2ray核心的mac版客户端,用于科学上网,使用swift4.2编写,支持vmess,shadowsocks,socks5等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等](https://github.com/yanue/V2rayU)
+[onplus/v2hero: All Free . Deploy V2Ray to Heroku . v2ray学习参考](https://github.com/onplus/v2hero)
+
+[EtherDream/jsproxy: 一个基于浏览器端 JS 实现的在线代理](https://github.com/EtherDream/jsproxy)
+
+[hmgle/graftcp: A flexible tool for redirecting a given program's TCP traffic to SOCKS5 or HTTP proxy.](https://github.com/hmgle/graftcp)
+
+### Mirror
+
+* [Tuna](https://mirror.tuna.tsinghua.edu.cn)
+  * [pypi](https://mirror.tuna.tsinghua.edu.cn/help/pypi/)
+    * `pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package`
+  * [raspbian](https://mirror.tuna.tsinghua.edu.cn/help/raspbian/)
+  * [ubuntu](https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/)
 
 ### Tutorial
 

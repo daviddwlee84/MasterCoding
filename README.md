@@ -148,6 +148,17 @@ iOS
   * [Midnight Commander](https://midnight-commander.org/)
 * [Terminal / Command Line](Linux/Terminal.md)
 
+## Google Chrome
+
+> [extension store](https://chrome.google.com/webstore/category/extensions)
+
+* [dinosour](chrome://dino/)
+
+Web Debug
+
+* [VisBug](https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc)
+* [Wappalyzer](https://www.wappalyzer.com/) - Identify technology on websites
+
 ## Taking Notes
 
 ### Markdown
@@ -248,9 +259,13 @@ Virtual Environment
 Professional CLI Application
 
 * [`argparse`](https://docs.python.org/3.7/library/argparse.html)
+* [`docopt`](http://docopt.org/)
+  * [docopt/docopt: Pythonic command line arguments parser, that will make you smile](https://github.com/docopt/docopt)
 * `fire`
 * `click`
 * `fabric`, `invoke`
+
+> [Comparing Python Command-Line Parsing Libraries – Argparse, Docopt, and Click – Real Python](https://realpython.com/comparing-python-command-line-parsing-libraries-argparse-docopt-click/)
 
 Logging
 
@@ -260,6 +275,23 @@ Preserve Object
 
 * `pickle`
 * `json`, `yaml`
+
+Visualization
+
+> * [Overview of Python Visualization Tools](https://pbpython.com/visualization-tools-1.html)
+> * [plotnine：python數據可視化版ggplot2](https://zhuanlan.zhihu.com/p/47814353)
+
+* `matplotlib`
+* `pandas' builtin-plotting`
+* `seaborn`
+* `ggplot`
+* `Bokeh`
+* `plotly`
+* [`visdom`](https://github.com/facebookresearch/visdom)
+
+> LaTeX Plot
+>
+> * [nschloe/tikzplotlib: Convert matplotlib figures to TikZ/PGFplots for smooth integration into LaTeX.](https://github.com/nschloe/tikzplotlib)
 
 Hide process name from `top` or `ps -aux | grep python`
 
@@ -272,6 +304,21 @@ Hide process name from `top` or `ps -aux | grep python`
   print(getproctitle())
   # Your Code
   ```
+
+Notification
+
+* [SeTeM/pync: Python wrapper for Mac OS 10.8 Notification Center](https://github.com/SeTeM/pync)
+* [jaredks/rumps: Ridiculously Uncomplicated macOS Python Statusbar apps](https://github.com/jaredks/rumps)
+
+Schedule
+
+* [Python | Schedule Library - GeeksforGeeks](https://www.geeksforgeeks.org/python-schedule-library/)
+
+Configuration
+
+* [google/gin-config: Gin provides a lightweight configuration framework for Python](https://github.com/google/gin-config)
+
+> * [chiphuyen/python-is-cool: Cool Python features for machine learning that I used to be too afraid to use](https://github.com/chiphuyen/python-is-cool)
 
 ---
 
@@ -316,7 +363,13 @@ Tools
 
 ### Coding Style
 
-[You (Probably) Don’t Need For-Loops - Python Pandemonium - Medium](https://medium.com/python-pandemonium/never-write-for-loops-again-91a5a4c84baf)
+Python
+
+* [You (Probably) Don’t Need For-Loops - Python Pandemonium - Medium](https://medium.com/python-pandemonium/never-write-for-loops-again-91a5a4c84baf)
+* Google
+  * [styleguide | Style guides for Google-originated open-source projects](https://google.github.io/styleguide/pyguide.html)
+  * [.pylintrc](https://github.com/google/seq2seq/blob/master/pylintrc)
+  * [google/yapf: A formatter for Python files](https://github.com/google/yapf)
 
 #### Formatter, Prettifier
 
@@ -360,7 +413,6 @@ JavaScript
 * Dash (including MacOS, iOS, VSCode client)
 * [SwitchHost](https://oldj.github.io/SwitchHosts/) - hosts management & switching
 * [KeeWeb](https://keeweb.info/) - cross-platform password manager
-* [ngork](https://ngrok.com/)- public URLs for localhost
 
 #### Code Presentation
 
@@ -384,6 +436,14 @@ $ fortune | cowsay | lolcat -a
 $ echo "KTHXBAI" | toilet | lolcat
 $ date | figlet -k
 ```
+
+### Reverse Proxy
+
+> 內網穿透
+
+* [ngork](https://ngrok.com/)- public URLs for localhost
+* [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet
+* [NGINX](https://www.nginx.com/) - High Performance Load Balancer, Web Server, & Reverse Proxy
 
 ### Slides
 
@@ -502,6 +562,23 @@ $ date | figlet -k
     * [FindYoutube.net](https://www.findyoutube.net/)
       * [manual](https://help.findyoutube.net/help)
       * [browser script](https://greasyfork.org/en/scripts/8426-download-youtube-videos-and-subtitles)
+* File Transfer
+  * HTML to PDF
+    * [Sejda - Convert HTML to PDF Online](https://www.sejda.com/html-to-pdf)
+    * [HTML to PDF – Convert HTML files to PDF](https://html2pdf.com/)
+* Slides
+  * [GitPitch - The Markdown Presentation Service on Git.](https://gitpitch.com/)
+  * HTML
+    * [reveal.js – The HTML Presentation Framework](https://revealjs.com/#/)
+  * Markdown
+    * [hiroppy/fusuma: ✍️Fusuma makes slides with Markdown easily.](https://github.com/hiroppy/fusuma)
+* Coooooool Stuff
+  * [Camelot: PDF Table Extraction for Humans](https://github.com/atlanhq/camelot)
+    * [Command-Line Interface](https://camelot-py.readthedocs.io/en/master/user/cli.html)
+  * [Anime4K: A High-Quality Real Time Upscaler for Anime Video](https://github.com/bloc97/Anime4K)
+  * [Gapplin - SVG Viewer for macOS](http://gapplin.wolfrosch.com/)
+  * [PyGithub/PyGithub: Typed interactions with the GitHub API v3](https://github.com/PyGithub/PyGithub)
+  * [Zotero | Your personal research assistant](https://www.zotero.org/)
 
 ### Script
 
